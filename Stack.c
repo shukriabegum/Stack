@@ -58,10 +58,11 @@ int main()
 {
     int choice;
     int running=1;
+    printf("\nStack menu is:\n");
+        printf("1.Push\n2.Pop\n3.Peek\n4.Display\n 5.Exit\n");
     while(running)
     {
-        printf("\nStack menu is:\n");
-        printf("1.Push\n2.Pop\n3.Peek\n4.Display\n 5.Exit\n");
+        
         printf("Enter your choice: ");
         scanf("%d",&choice);
         switch(choice)
@@ -76,3 +77,4 @@ int main()
         }
     }
 }
+
